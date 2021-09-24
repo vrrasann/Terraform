@@ -5,5 +5,3 @@ variable "pub_sub_cidr" {}
 variable "pub_sub_az" {}
 variable "rt_destination_cidr" {}
 variable "region" {}
-variable "access_key" {}
-variable "secret_key" {}
