@@ -4,8 +4,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "dpt-web-data"
-    key    = "dpt2/vpc/dpt2-vpc"
+    bucket = "dpt-web-data1dec"
+    key    = "dpt2/vpc/cloudguru"
     region = "us-east-1"
   }
 }
