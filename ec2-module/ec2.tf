@@ -11,8 +11,8 @@ data "terraform_remote_state" "vpc" {
   backend = "s3"
 
   config = {
-    bucket = "dpt-web-data"
-    key    = "dpt/vpc/dpt-vpc"
+    bucket = "dpt-web-data1dec"
+    key    = "dpt/vpc/cloudguru"
     region = "us-east-1"
     }
   }
